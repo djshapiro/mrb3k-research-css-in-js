@@ -2,7 +2,7 @@ import React from 'react';
 import Radium from 'radium';
 import Utils from '../../common_assets/utils';
 import constants from '../../common_assets/constants';
-import styles from '../styles2';
+import styles from './FooterCss';
 
 const Footer = (props) => {
   const activeTodoWord = Utils.pluralize(props.count, 'item');

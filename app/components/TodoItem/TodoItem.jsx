@@ -1,6 +1,6 @@
 import React from 'react';
 import Radium from 'radium';
-import styles from '../styles2';
+import styles from './TodoItemCss';
 
 const ESCAPE_KEY = 27;
 const ENTER_KEY = 13;

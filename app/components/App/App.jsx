@@ -6,7 +6,7 @@ import TodoItem from '../TodoItem';
 import TodoStore from '../../stores/todoStore';
 import TodoActions from '../../actions/todoActions';
 import constants from '../../common_assets/constants';
-import styles from '../styles2';
+import styles from './AppCss';
 
 const ENTER_KEY = 13;
 

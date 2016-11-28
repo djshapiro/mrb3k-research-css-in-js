@@ -2,6 +2,7 @@ import React from 'react';
 import { Style, StyleRoot } from 'radium';
 import ReactDOM from 'react-dom';
 import App from './components/App';
+import { color } from './common_assets/css';
 // import '../node_modules/todomvc-common/base.css';
 // import '../node_modules/todomvc-app-css/index.css';
 
@@ -15,8 +16,8 @@ const baseStyles = {
       fontSize: 14,
       fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif",
       lineHeight: '1.4em',
-      background: '#f5f5f5',
-      color: '#4d4d4d',
+      background: color.mainBackground,
+      color: color.mainFont,
       minWidth: 230,
       maxWidth: 550,
       margin: '0 auto',
@@ -49,8 +50,8 @@ const baseStyles = {
     marginBottom: 20,
     marginLeft: 0,
     border: 0,
-    borderTop: '1px dashed #c5c5c5',
-    borderBottom: '1px dashed #f7f7f7',
+    borderTop: `1px dashed ${color.mainHorizontalRule}`,
+    borderBottom: `1px dashed ${color.altPrimaryLight}`,
   },
 };
 
